@@ -28,7 +28,7 @@
         </ol>
       </script>
 
-      <div ui-tree id="tree-root">
+      <div ui-tree data-drag-delay="500" id="tree-root">
         <ol ui-tree-nodes="" ng-model="data">
           <li ng-repeat="node in data" ui-tree-node ng-include="'nodes_renderer.html'"></li>
         </ol>
