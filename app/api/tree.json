@@ -16,8 +16,9 @@
             },
             {
                 "id": 12,
-                "title": "node1.2",
-                "nodes": []
+                "title": "dropDownOne",
+                "nodes": [],
+                "type":"D"
             }
         ]
     },

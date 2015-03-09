@@ -1,7 +1,7 @@
 'use strict'
 
 angular.module 'elanceApp'
-.controller 'TreeCtrl', ($scope,$resource) ->
+.controller 'TreeCtrl', ($scope,$resource,$filter) ->
   $scope.remove = (scope) ->
     console.log 'hello world'
     scope.remove()
@@ -47,5 +47,20 @@ angular.module 'elanceApp'
   $scope.saveTree = () ->
     $scope.treeResource.save $scope.data
     return
-  $scope.user = {number:12}
+
+  $scope.dropDown = [
+      {value: "dropDownOne", text: 'drop down 01'},
+      {value: "dropDownTwo", text: 'drop down 02'},
+      {value: "dropDownThree", text: 'drop down 03'}
+    ]
+
+  $scope.showStatus = (node)  ->
+    filter = $filter 'filter'
+    selected = filter $scope.dropDown, {value: node.title}
+    if node.title and selected.length
+      selected[0].text
+    else
+      'Not set'
+
+  $scope.user = {number:12,status: 2}
 
