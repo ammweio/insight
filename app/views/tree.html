@@ -7,14 +7,13 @@
         <a href="" class="btn btn-default pull-right" ng-click="collapseAll()">Collapse all</a>
         <a href="" class="btn btn-default pull-right" ng-click="expandAll()">Expand all</a>
         <a href="" class="btn btn-default btn-warning pull-right" ng-click="moveLastToTheBegginig()">Move Last To The Begginig</a>
-
       </h3>
-
+        <a href="#" editable-text="user.name">{{ user.name || 'empty' }}</a>
       <!-- Nested node template -->
       <script type="text/ng-template" id="nodes_renderer.html">
         <div ui-tree-handle class="tree-node tree-node-content">
           <a class="btn btn-success btn-xs" ng-if="node.nodes && node.nodes.length > 0" data-nodrag ng-click="toggle(this)"><span class="glyphicon" ng-class="{'glyphicon-chevron-right': collapsed, 'glyphicon-chevron-down': !collapsed}"></span></a>
-          {{node.title}}
+            {{node.title}}
           <a class="pull-right btn btn-danger btn-xs" data-nodrag ng-click="remove(this)"><span class="glyphicon glyphicon-remove"></span></a>
           <a class="pull-right btn btn-primary btn-xs" data-nodrag ng-click="newSubItem(this)" style="margin-right: 8px;"><span class="glyphicon glyphicon-plus"></span></a>
         </div>
@@ -29,7 +28,6 @@
         </ol>
       </div>
     </div>
-
     <div class="col-lg-6">
       <h3>Data binding</h3>
       <div class="info">

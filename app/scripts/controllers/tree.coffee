@@ -2,44 +2,49 @@
 
 angular.module 'elanceApp'
 .controller 'TreeCtrl', ($scope) ->
-  $scope.awesomeThings = [
-    'HTML5 Boilerplate'
-    'AngularJS'
-    'Karma'
-  ]
 
-#  $scope.remove ->
-#    scope.remove()
-#
-#  $scope.toggle ->
-#    scope.toggle()
-#
-#  $scope.moveLastToTheBegginig ->
-#    a = $scope.data.pop();
-#    $scope.data.splice 0,0, a
+  $scope.remove = (scope) ->
+    console.log 'hello world'
+    scope.remove()
+    return
 
+  $scope.toggle = (scope) ->
+    scope.toggle()
+    return
 
-#  $scope.newSubItem ->
-#    nodeData = scope.$modelValue;
-#    nodeData.nodes.push {
-#    id: nodeData.id * 10 + nodeData.nodes.length,
-#    title: nodeData.title + '.' + (nodeData.nodes.length + 1),
-#    nodes: []
-#  }
-#
-#  getRootNodesScope ->
-#    angular.element(document.getElementById("tree-root")).scope();
-
-#    $scope.collapseAll ->
-#      scope = getRootNodesScope()
-#      scope.collapseAll()
-#
-#
-#    $scope.expandAll ->
-#      scope = getRootNodesScope()
-#      scope.expandAll()
+  $scope.moveLastToTheBegginig = ->
+    a = $scope.data.pop();
+    $scope.data.splice 0,0, a
+    return
 
 
+  $scope.newSubItem = (scope) ->
+    nodeData = scope.$modelValue;
+    nodeData.nodes.push
+      id: nodeData.id * 10 + nodeData.nodes.length,
+      title: nodeData.title + '.' + (nodeData.nodes.length + 1),
+      nodes: []
+
+
+
+  getRootNodesScope = () ->
+    root = angular.element document.getElementById "tree-root"
+    root.scope()
+
+  $scope.collapseAll = () ->
+     scope = getRootNodesScope()
+     scope.collapseAll()
+     return
+
+
+  $scope.expandAll = () ->
+     scope = getRootNodesScope()
+     scope.expandAll()
+     return
+
+  $scope.user = {
+    name: 'awesome user'
+  }
   $scope.data = [{
     "id": 1,
     "title": "node1",
