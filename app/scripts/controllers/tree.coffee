@@ -1,99 +1,65 @@
 'use strict'
 
 angular.module 'elanceApp'
-.controller 'TreeCtrl', ($scope) ->
-  $scope.awesomeThings = [
-    'HTML5 Boilerplate'
-    'AngularJS'
-    'Karma'
-  ]
+.controller 'TreeCtrl', ($scope,$resource,$filter) ->
+  $scope.remove = (scope) ->
+    console.log 'hello world'
+    scope.remove()
+    return
 
-#  $scope.remove ->
-#    scope.remove()
-#
-#  $scope.toggle ->
-#    scope.toggle()
-#
-#  $scope.moveLastToTheBegginig ->
-#    a = $scope.data.pop();
-#    $scope.data.splice 0,0, a
+  $scope.toggle = (scope) ->
+    scope.toggle()
+    return
+
+  $scope.moveLastToTheBegginig = ->
+    a = $scope.data.pop();
+    $scope.data.splice 0, 0, a
+    return
 
 
-#  $scope.newSubItem ->
-#    nodeData = scope.$modelValue;
-#    nodeData.nodes.push {
-#    id: nodeData.id * 10 + nodeData.nodes.length,
-#    title: nodeData.title + '.' + (nodeData.nodes.length + 1),
-#    nodes: []
-#  }
-#
-#  getRootNodesScope ->
-#    angular.element(document.getElementById("tree-root")).scope();
-
-#    $scope.collapseAll ->
-#      scope = getRootNodesScope()
-#      scope.collapseAll()
-#
-#
-#    $scope.expandAll ->
-#      scope = getRootNodesScope()
-#      scope.expandAll()
+  $scope.newSubItem = (scope) ->
+    nodeData = scope.$modelValue;
+    nodeData.nodes.push
+      id: nodeData.id * 10 + nodeData.nodes.length,
+      title: nodeData.title + '.' + (nodeData.nodes.length + 1),
+      nodes: []
 
 
-  $scope.data = [{
-    "id": 1,
-    "title": "node1",
-    "nodes": [
-      {
-        "id": 11,
-        "title": "node1.1",
-        "nodes": [
-          {
-            "id": 111,
-            "title": "node1.1.1",
-            "nodes": []
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "title": "node1.2",
-        "nodes": []
-      }
+  getRootNodesScope = () ->
+    root = angular.element document.getElementById "tree-root"
+    root.scope()
+
+  $scope.collapseAll = () ->
+    scope = getRootNodesScope()
+    scope.collapseAll()
+    return
+
+
+  $scope.expandAll = () ->
+    scope = getRootNodesScope()
+    scope.expandAll()
+    return
+
+  $scope.treeResource = $resource 'api/tree.json'
+
+  $scope.data = $scope.treeResource.query()
+
+  $scope.saveTree = () ->
+    $scope.treeResource.save $scope.data
+    return
+
+  $scope.dropDown = [
+      {value: 1001, text: 'drop down 01'},
+      {value: 1002, text: 'drop down 02'},
+      {value: 1003, text: 'drop down 03'}
     ]
-  }, {
-    "id": 2,
-    "title": "node2",
-    "nodes": [
-      {
-        "id": 21,
-        "title": "node2.1",
-        "nodes": []
-      },
-      {
-        "id": 22,
-        "title": "node2.2",
-        "nodes": []
-      }
-    ]
-  }, {
-    "id": 3,
-    "title": "node3",
-    "nodes": [
-      {
-        "id": 31,
-        "title": "node3.1",
-        "nodes": []
-      }
-    ]
-  }, {
-    "id": 4,
-    "title": "node4",
-    "nodes": [
-      {
-        "id": 41,
-        "title": "node4.1",
-        "nodes": []
-      }
-    ]
-  }]
+
+  $scope.showStatus = (node)  ->
+    filter = $filter 'filter'
+    selected = filter $scope.dropDown, {value: node.title}
+    if node.title and selected.length
+      selected[0].text
+    else
+      'Not set'
+
+
