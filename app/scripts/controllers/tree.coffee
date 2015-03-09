@@ -1,8 +1,7 @@
 'use strict'
 
 angular.module 'elanceApp'
-.controller 'TreeCtrl', ($scope) ->
-
+.controller 'TreeCtrl', ($scope,$resource) ->
   $scope.remove = (scope) ->
     console.log 'hello world'
     scope.remove()
@@ -14,7 +13,7 @@ angular.module 'elanceApp'
 
   $scope.moveLastToTheBegginig = ->
     a = $scope.data.pop();
-    $scope.data.splice 0,0, a
+    $scope.data.splice 0, 0, a
     return
 
 
@@ -26,79 +25,27 @@ angular.module 'elanceApp'
       nodes: []
 
 
-
   getRootNodesScope = () ->
     root = angular.element document.getElementById "tree-root"
     root.scope()
 
   $scope.collapseAll = () ->
-     scope = getRootNodesScope()
-     scope.collapseAll()
-     return
+    scope = getRootNodesScope()
+    scope.collapseAll()
+    return
 
 
   $scope.expandAll = () ->
-     scope = getRootNodesScope()
-     scope.expandAll()
-     return
+    scope = getRootNodesScope()
+    scope.expandAll()
+    return
 
-  $scope.user = {
-    name: 'awesome user'
-  }
-  $scope.data = [{
-    "id": 1,
-    "title": "node1",
-    "nodes": [
-      {
-        "id": 11,
-        "title": "node1.1",
-        "nodes": [
-          {
-            "id": 111,
-            "title": "node1.1.1",
-            "nodes": []
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "title": "node1.2",
-        "nodes": []
-      }
-    ]
-  }, {
-    "id": 2,
-    "title": "node2",
-    "nodes": [
-      {
-        "id": 21,
-        "title": "node2.1",
-        "nodes": []
-      },
-      {
-        "id": 22,
-        "title": "node2.2",
-        "nodes": []
-      }
-    ]
-  }, {
-    "id": 3,
-    "title": "node3",
-    "nodes": [
-      {
-        "id": 31,
-        "title": "node3.1",
-        "nodes": []
-      }
-    ]
-  }, {
-    "id": 4,
-    "title": "node4",
-    "nodes": [
-      {
-        "id": 41,
-        "title": "node4.1",
-        "nodes": []
-      }
-    ]
-  }]
+  $scope.treeResource = $resource 'api/tree.json'
+
+  $scope.data = $scope.treeResource.query()
+
+  $scope.saveTree = () ->
+    $scope.treeResource.save $scope.data
+    return
+  $scope.user = {number:12}
+
