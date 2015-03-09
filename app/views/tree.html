@@ -17,7 +17,7 @@
             <a href="#" editable-text="node.title" ng-if="node.type != 'N' && node.type != 'D'">{{ node.title || 'empty' }}</a>
             <a href="#" editable-number="node.title" e-min="0" ng-if="node.type == 'N'">{{ node.title || 'empty' }}</a>
             <a href="#" editable-select="node.title" e-ng-options="s.value as s.text for s in dropDown" ng-if="node.type == 'D'">
-                {{showStatus(this)}}
+                {{showStatus(node)}}
             </a>
           <a class="pull-right btn btn-danger btn-xs" data-nodrag ng-click="remove(this)"><span class="glyphicon glyphicon-remove"></span></a>
           <a class="pull-right btn btn-primary btn-xs" data-nodrag ng-click="newSubItem(this)" style="margin-right: 8px;"><span class="glyphicon glyphicon-plus"></span></a>

@@ -49,9 +49,9 @@ angular.module 'elanceApp'
     return
 
   $scope.dropDown = [
-      {value: "dropDownOne", text: 'drop down 01'},
-      {value: "dropDownTwo", text: 'drop down 02'},
-      {value: "dropDownThree", text: 'drop down 03'}
+      {value: 1001, text: 'drop down 01'},
+      {value: 1002, text: 'drop down 02'},
+      {value: 1003, text: 'drop down 03'}
     ]
 
   $scope.showStatus = (node)  ->
@@ -62,5 +62,4 @@ angular.module 'elanceApp'
     else
       'Not set'
 
-  $scope.user = {number:12,status: 2}
 
