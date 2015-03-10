@@ -2,13 +2,13 @@
 
 ###*
  # @ngdoc function
- # @name elanceApp.controller:AboutCtrl
+ # @name insight.controller:AboutController
  # @description
- # # AboutCtrl
- # Controller of the elanceApp
+ # # AboutController
+ # Controller of the insight
 ###
-angular.module 'elanceApp'
-  .controller 'AboutCtrl', ($scope) ->
+angular.module 'insight'
+  .controller 'AboutController', ($scope) ->
     $scope.expandAll = () ->
       scope = getRootNodesScope()
 #      scope.expandAll()

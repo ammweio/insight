@@ -2,14 +2,14 @@
 
 ###*
  # @ngdoc overview
- # @name elanceApp
+ # @name insight
  # @description
- # # elanceApp
+ # # insight
  #
  # Main module of the application.
 ###
 angular
-.module 'elanceApp', [
+.module 'insight', [
   'ngAnimate',
   'ngCookies',
   'ngResource',
@@ -23,13 +23,13 @@ angular
   $routeProvider
   .when '/',
     templateUrl: 'views/main.html'
-    controller: 'MainCtrl'
+    controller: 'MainController'
   .when '/about',
     templateUrl: 'views/about.html'
-    controller: 'AboutCtrl'
+    controller: 'AboutController'
   .when '/tree',
     templateUrl: 'views/tree.html'
-    controller: 'TreeCtrl'
+    controller: 'TreeController'
   .otherwise
       redirectTo: '/'
 .run (editableOptions) ->

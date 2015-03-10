@@ -1,17 +1,17 @@
 'use strict'
 
-describe 'Controller: MainCtrl', ->
+describe 'Controller: MainController', ->
 
   # load the controller's module
-  beforeEach module 'elanceApp'
+  beforeEach module 'insight'
 
-  MainCtrl = {}
+  MainController = {}
   scope = {}
 
   # Initialize the controller and a mock scope
   beforeEach inject ($controller, $rootScope) ->
     scope = $rootScope.$new()
-    MainCtrl = $controller 'MainCtrl', {
+    MainController = $controller 'MainController', {
       $scope: scope
     }
 

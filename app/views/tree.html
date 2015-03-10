@@ -14,11 +14,12 @@
       <script type="text/ng-template" id="nodes_renderer.html">
         <div ui-tree-handle class="tree-node tree-node-content">
           <a class="btn btn-success btn-xs" ng-if="node.nodes && node.nodes.length > 0" data-nodrag ng-click="toggle(this)"><span class="glyphicon" ng-class="{'glyphicon-chevron-right': collapsed, 'glyphicon-chevron-down': !collapsed}"></span></a>
-            <a href="#" editable-text="node.title" ng-if="node.type != 'N' && node.type != 'D'">{{ node.title || 'empty' }}</a>
-            <a href="#" editable-number="node.title" e-min="0" ng-if="node.type == 'N'">{{ node.title || 'empty' }}</a>
-            <a href="#" editable-select="node.title" e-ng-options="s.value as s.text for s in dropDown" ng-if="node.type == 'D'">
-                {{showStatus(node)}}
-            </a>
+            {{node.title}}
+            <!--<a href="#" editable-text="node.title" ng-if="node.type != 'N' && node.type != 'D'">{{ node.title || 'empty' }}</a>-->
+            <!--<a href="#" editable-number="node.title" e-min="0" ng-if="node.type == 'N'">{{ node.title || 'empty' }}</a>-->
+            <!--<a href="#" editable-select="node.title" e-ng-options="s.value as s.text for s in dropDown" ng-if="node.type == 'D'">-->
+                <!--{{showStatus(node)}}-->
+            <!--</a>-->
           <a class="pull-right btn btn-danger btn-xs" data-nodrag ng-click="remove(this)"><span class="glyphicon glyphicon-remove"></span></a>
           <a class="pull-right btn btn-primary btn-xs" data-nodrag ng-click="newSubItem(this)" style="margin-right: 8px;"><span class="glyphicon glyphicon-plus"></span></a>
         </div>

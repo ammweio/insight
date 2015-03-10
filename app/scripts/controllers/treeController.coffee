@@ -1,9 +1,8 @@
 'use strict'
 
-angular.module 'elanceApp'
-.controller 'TreeCtrl', ($scope,$resource,$filter) ->
+angular.module 'insight'
+.controller 'TreeController', ($scope,$resource,$filter) ->
   $scope.remove = (scope) ->
-    console.log 'hello world'
     scope.remove()
     return
 
