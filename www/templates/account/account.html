@@ -1,0 +1,32 @@
+<ion-view view-title="My HotWind">
+    <ion-content>
+        <div class="list">
+            <a class="item item-icon-left" href="#">
+                <i class="icon ion-ios-email"></i>
+                {{ 'inbox' | translate }}
+            </a>
+
+            <a class="item item-icon-left item-icon-right" href="#">
+                <i class="icon ion-ios-person"></i>
+                {{ 'personal_information' | translate }}
+                <i class="icon ion-ios-locked"></i>
+            </a>
+
+            <a class="item item-icon-left item-icon-right" href="#">
+                <i class="icon ion-ios-people"></i>
+                {{ 'address_book' | translate }}
+                <i class="icon ion-ios-locked"></i>
+            </a>
+
+            <a class="item item-icon-left" href="#/insight/account/settings">
+                <i class="icon ion-ios-cog"></i>
+                {{ 'settings' | translate }}
+            </a>
+        </div>
+
+        <a class="button button-block button-positive" href="#/insight/account/signIn">
+            {{ 'sign_in' | translate }}
+        </a>
+
+    </ion-content>
+</ion-view>

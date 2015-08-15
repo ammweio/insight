@@ -1,0 +1,16 @@
+<ion-view view-title="{{ 'archive' | translate }}">
+    <ion-content>
+        <div class="list">
+            <div class="item" ng-repeat="note in notes">
+                <div class="item-body">
+                    {{note.serverId}}
+                </div>
+            </div>
+        </div>
+        <ion-infinite-scroll
+                distance="2%"
+                ng-if="moreDataCanBeLoaded()"
+                on-infinite="loadMore()">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

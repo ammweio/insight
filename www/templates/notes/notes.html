@@ -1,0 +1,53 @@
+<ion-view view-title="{{ 'noteBook' | translate }}">
+    <ion-content>
+        <!--<div class="list" ng-if="layout=='list'">-->
+            <!--<div class="item" ng-repeat="note in notes" >-->
+                <!--<div class="item-body">-->
+                    <!--{{note.serverId}}-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <ion-infinite-scroll
+                distance="2%"
+                ng-if="moreDataCanBeLoaded()"
+                on-infinite="loadMore()">
+        </ion-infinite-scroll>
+
+        <div class="list card">
+
+            <div class="item item-avatar">
+                <img src="img/ionic.png">
+                <h2>Marty McFly</h2>
+                <p>November 05, 1955</p>
+            </div>
+
+            <div class="item item-body">
+                <!--<img class="full-image" src="delorean.jpg">-->
+                <p>
+                    <pre>{{article}}</pre>
+                </p>
+                <p>
+                    <a href="#" class="subdued">1 Like</a>
+                    <a href="#" class="subdued">5 Comments</a>
+                </p>
+            </div>
+
+            <div class="item tabs tabs-secondary tabs-icon-left">
+                <a class="tab-item" href="#">
+                    <i class="icon ion-thumbsup"></i>
+                    Like
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-chatbox"></i>
+                    Comment
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-share"></i>
+                    Share
+                </a>
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>
