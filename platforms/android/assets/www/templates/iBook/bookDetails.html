@@ -1,22 +1,13 @@
-<ion-view view-title="Note">
+<ion-view view-title="{{ 'bookDetails' | translate }}">
     <ion-content>
-
-        <!--<div class="list card">-->
-
-        <!--<div class="item item-body">-->
         <div class="insight-image-wrap">
-            <img ng-src="img/ladies/lady-01.jpg" alt="Description" class="full-image"/>
-
-            <h1 class="title"><span>Image 1</span></h1>
+            <!--<img ng-src="{{details.image}}" alt="Description" class="full-image"/>-->
+            <h1 class="title"><span>{{details.title}}</span></h1>
             <button class="button button-icon icon ion-ios-information-outline wrap-button"
                     ng-click="openModal()">
                 {{'information' | translate}}
             </button>
-            <!--<a class="button icon-left ion-ios-information-outline button-clear button-dark wrap-button">Info</a>-->
         </div>
-        <!--</div>-->
-        <!--</div>-->
-
     </ion-content>
 
     <ion-footer-bar class="bar-balanced">

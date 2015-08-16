@@ -2,13 +2,10 @@
  * Created by seven on 5/1/2015.
  */
 var insight = angular.module('insight');
-insight.controller('BookDetailsController', function($scope,$resource,$stateParams,$localStorage,$ionicActionSheet,$ionicPopup,$ionicModal) {
-    console.log($stateParams.id+"----")
-    var detailResource = $resource('dataset/ladies/lady.json');
-    detailResource.query(function(result){
-        $scope.detail = result;
-    },function(error){
-
+insight.controller('BookDetailsController', function($scope,$stateParams,$localStorage,$ionicActionSheet,$ionicPopup,$ionicModal,Book) {
+    console.log($stateParams.id+"--the book id")
+    Book.get(function(result){
+        $scope.details = result;
     });
 
     $scope.showActionSheet = function() {

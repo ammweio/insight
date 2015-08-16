@@ -5,6 +5,12 @@
 var insight = angular.module('insight');
 
 insight
+    .factory("BookRecommendations", function($resource) {
+        return $resource('dataset/bookRecommendations.json');
+    })
+    .factory("Book", function($resource) {
+        return $resource('dataset/book.json');
+    })
     .factory("Books", function($resource) {
         return $resource('dataset/books.json');
     })

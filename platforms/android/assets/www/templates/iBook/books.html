@@ -1,12 +1,5 @@
 <ion-view view-title="{{ 'book' | translate }}">
     <ion-content>
-        <!--<div class="list" ng-if="layout=='list'">-->
-        <!--<div class="item" ng-repeat="note in notes" >-->
-        <!--<div class="item-body">-->
-        <!--{{note.serverId}}-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
 
         <ion-infinite-scroll
                 distance="2%"
@@ -17,13 +10,12 @@
         <div class="list card">
 
             <div class="item item-avatar">
-                <img src="img/ionic.jpg">
+                <img src="img/ionic.png">
                 <h2>Marty McFly</h2>
                 <p>November 05, 1955</p>
             </div>
 
             <div class="item item-body">
-                <!--<img class="full-image" src="delorean.jpg">-->
                 <p>
                 <pre>{{article}}</pre>
                 </p>
