@@ -3,11 +3,19 @@
  */
 var insight = angular.module('insight');
 insight.controller('BookDetailsController', function($scope,$stateParams,$localStorage,$ionicActionSheet,$ionicPopup,$ionicModal,Book) {
+    $scope.rate = 3;
+    $scope.max = 5;
     console.log($stateParams.id+"--the book id")
     Book.get(function(result){
         $scope.details = result;
     });
-
+    $scope.getTags = function(tags){
+        var tagArray = [];
+        angular.forEach(tags, function(value, key) {
+            tagArray.push(value.name);
+        });
+        return tagArray;
+    }
     $scope.showActionSheet = function() {
         // Show the action sheet
         var hideSheet = $ionicActionSheet.show({

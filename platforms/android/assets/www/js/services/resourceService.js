@@ -14,6 +14,9 @@ insight
     .factory("Books", function($resource) {
         return $resource('dataset/books.json');
     })
+    .factory("Tags", function($resource) {
+        return $resource('dataset/tags.json');
+    })
     .factory("Article", function($resource) {
         return $resource('https://128.199.91.142:3000/articles/55cef0949d9179700985c90d');
     })
