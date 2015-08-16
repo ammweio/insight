@@ -2,7 +2,7 @@
  * Created by seven on 5/1/2015.
  */
 var insight = angular.module('insight');
-insight.controller('NoteDetailController', function($scope,$resource,$stateParams,$localStorage,$ionicActionSheet,$ionicPopup,$ionicModal) {
+insight.controller('BookDetailsController', function($scope,$resource,$stateParams,$localStorage,$ionicActionSheet,$ionicPopup,$ionicModal) {
     console.log($stateParams.id+"----")
     var detailResource = $resource('dataset/ladies/lady.json');
     detailResource.query(function(result){
@@ -38,7 +38,7 @@ insight.controller('NoteDetailController', function($scope,$resource,$stateParam
         $scope.data = {}
         // An elaborate, custom popup
         var myPopup = $ionicPopup.show({
-            templateUrl:'templates/notes/detailPopup.html',
+            templateUrl:'templates/iBook/detailPopup.html',
             title: 'Enter Wi-Fi Password',
             subTitle: 'Please use normal things',
             scope: $scope,
@@ -75,7 +75,7 @@ insight.controller('NoteDetailController', function($scope,$resource,$stateParam
     }
 
 
-    $ionicModal.fromTemplateUrl('templates/notes/detailDialog.html', {
+    $ionicModal.fromTemplateUrl('templates/iBook/detailDialog.html', {
         scope: $scope,
         animation: 'slide-in-up'
     }).then(function(modal) {

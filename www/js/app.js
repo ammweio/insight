@@ -111,50 +111,32 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 controller: 'InsightController'
             })
 
-            .state('insight.notes', {
-                url: "/notes",
+            .state('insight.books', {
+                url: "/books",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/notes/notes.html",
-                        controller: 'NotesController'
+                        templateUrl: "templates/iBook/books.html",
+                        controller: 'BooksController'
                     }
                 }
             })
 
-            .state('insight.note', {
-                url: "/note/:id",
+            .state('insight.book', {
+                url: "/book/:id",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/notes/noteDetail.html",
-                        controller: 'NoteDetailController'
+                        templateUrl: "templates/iBook/bookDetails.html",
+                        controller: 'BookDetailsController'
                     }
                 }
             })
 
-            .state('insight.reminders', {
-                url: "/reminders",
+            .state('insight.bookRecommendations', {
+                url: "/bookRecommendations",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/notes/reminders.html",
-                        controller: 'RemindersController'
-                    }
-                }
-            })
-            .state('insight.archive', {
-                url: "/archive",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/notes/archive.html",
-                        controller: 'RemindersController'
-                    }
-                }
-            })
-            .state('insight.trash', {
-                url: "/trash",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/notes/trash.html",
-                        controller: 'RemindersController'
+                        templateUrl: "templates/iBook/bookRecommendations.html",
+                        controller: 'BookRecommendationsController'
                     }
                 }
             })
@@ -195,7 +177,7 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 }
             });
 // if none of the above states are matched, use this as the fallback
-        $urlRouterProvider.otherwise('/insight/notes');
+        $urlRouterProvider.otherwise('/insight/bookRecommendations');
     })
 
     .constant('$ionicLoadingConfig', {

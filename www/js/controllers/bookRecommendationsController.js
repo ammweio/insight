@@ -2,7 +2,7 @@
  * Created by seven on 7/25/2015.
  */
 var insight = angular.module('insight');
-insight.controller('RemindersController', function($scope) {
+insight.controller('BookRecommendationsController', function($scope) {
 
     function genBrick() {
         var height = ~~(Math.random() * 500) + 100;

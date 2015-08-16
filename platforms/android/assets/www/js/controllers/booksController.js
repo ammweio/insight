@@ -2,7 +2,7 @@
  * Created by seven on 5/1/2015.
  */
 var insight = angular.module('insight');
-insight.controller('NotesController', function($scope,$timeout,Notes,Article) {
+insight.controller('BooksController', function($scope,$timeout,Notes,Article) {
     $scope.layout = "list";
     Notes.get(function(result){
         $scope.notes = result.nodes;
