@@ -14,13 +14,14 @@
   "submit":"Submit",
   "information":"Information",
   "book":"Book",
+  "bookDetails":"Book Details",
   "bookRecommendation":"Book Recommendation",
-  "reminders":"Reminders",
   "archive":"Archive",
   "trash":"Trash",
-  "labels":"Labels",
-  "individual":"Individual",
-  "work":"Work",
-  "inspiration":"Inspiration",
-  "helpFeedback":"Help&Feedback"
+  "iRead":"iRead",
+  "reading":"Reading",
+  "read":"Read",
+  "helpFeedback":"Help&Feedback",
+  "browseByCategory":"Browse By Category",
+  "wishList":"Wish List"
 }

@@ -1,9 +1,9 @@
 <ion-view view-title="{{ 'bookRecommendation' | translate }}">
     <ion-content>
         <div class="list">
-            <a class="item item-thumbnail-left" href="#" ng-repeat="recommendation in recommendations">
+            <a class="item item-thumbnail-left" href="#/insight/book/1222" ng-repeat="recommendation in recommendations">
                 <img ng-src="{{recommendation.image}}" alt="{{recommendation.alt}}">
-                <h2>{{recommendation.title}}/{{recommendation.author.join(',')}}/{{recommendation.translator.join(',')}}</h2>
+                <h2><strong>{{recommendation.title}}/{{recommendation.author.join(',')}}/{{recommendation.translator.join(',')}}</strong></h2>
                 <p>{{recommendation.summary}}</p>
                 <p>{{getTags(recommendation.tags).join(',')}}</p>
             </a>

@@ -14,13 +14,14 @@
   "submit":"提交",
   "information":"信息",
   "book":"书籍",
+  "bookDetails":"书籍详情",
   "bookRecommendation":"书籍推荐",
-  "reminders":"提醒",
   "archive":"已归档",
   "trash":"回收站",
-  "labels":"标签",
-  "individual":"个人",
-  "work":"工作",
-  "inspiration":"灵感",
-  "helpFeedback":"帮助&回馈"
+  "iRead":"我读",
+  "reading":"在读",
+  "read":"已读",
+  "helpFeedback":"帮助&回馈",
+  "browseByCategory":"分类浏览",
+  "wishList":"想读"
 }
