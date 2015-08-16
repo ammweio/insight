@@ -4,7 +4,7 @@
 var insight = angular.module('insight');
 insight.controller('AccountController', function($scope,$localStorage,User) {
     $scope.settingsList = [
-        { text: "Enable news from HotWind", checked: true }
+        { text: "Enable news from iBorrow", checked: true }
     ];
     $scope.signIn = function(){
         User.save($scope.loginData,function(result){

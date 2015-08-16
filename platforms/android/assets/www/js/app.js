@@ -115,7 +115,7 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/books",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/notes/notes.html",
+                        templateUrl: "templates/iBook/books.html",
                         controller: 'BooksController'
                     }
                 }
@@ -125,7 +125,7 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/book/:id",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/notes/noteDetail.html",
+                        templateUrl: "templates/iBook/bookDetails.html",
                         controller: 'BookDetailsController'
                     }
                 }

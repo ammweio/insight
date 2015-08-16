@@ -2,10 +2,10 @@
  * Created by seven on 5/1/2015.
  */
 var insight = angular.module('insight');
-insight.controller('BooksController', function($scope,$timeout,Notes,Article) {
+insight.controller('BooksController', function($scope,$timeout,Books,Article) {
     $scope.layout = "list";
-    Notes.get(function(result){
-        $scope.notes = result.nodes;
+    Books.query(function(result){
+        $scope.notes = result;
     });
     Article.get(function(result){
         alert("https://128.199.91.142:3000/articles/55cef0949d9179700985c90d");
