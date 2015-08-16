@@ -1,12 +1,12 @@
 # Insight
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
+This project is for book borrow [iBorrow]
+version 0.0.1
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+Run `ionic build` for building and `ionic serve` for preview.
 
-## Testing
+## Contact
+nonumber1989@gmail.com
 
-Running `grunt test` will run the unit tests with karma.
