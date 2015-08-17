@@ -148,6 +148,15 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                     }
                 }
             })
+            .state('insight.bookScanner', {
+                url: "/bookScanner",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/iBook/bookScanner.html",
+                        controller: 'BookScannerController'
+                    }
+                }
+            })
             .state('insight.bookRecommendations', {
                 url: "/bookRecommendations",
                 views: {

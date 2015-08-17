@@ -49,6 +49,13 @@ module.exports = [
         "runs": true
     },
     {
+        "file": "plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js",
+        "id": "phonegap-plugin-barcodescanner.BarcodeScanner",
+        "clobbers": [
+            "cordova.plugins.barcodeScanner"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.device/www/device.js",
         "id": "org.apache.cordova.device.device",
         "clobbers": [
@@ -63,6 +70,7 @@ module.exports.metadata =
     "cordova-plugin-imagepicker": "1.1.0",
     "de.appplant.cordova.plugin.local-notification": "0.8.1",
     "cordova-plugin-whitelist": "1.0.0",
+    "phonegap-plugin-barcodescanner": "4.0.1",
     "org.apache.cordova.device": "0.3.0"
 }
 // BOTTOM OF METADATA
