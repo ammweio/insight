@@ -6,16 +6,19 @@
  */
 
 var insight = angular.module('insight');
-insight.controller('BookScannerController', function ($scope,$rootScope, $ionicPlatform,$cordovaBarcodeScanner,$cordovaLocalNotification) {
+insight.controller('BookScannerController', function ($scope,$rootScope, $ionicPlatform,$cordovaBarcodeScanner,$cordovaLocalNotification,DouBanISBN) {
     $ionicPlatform.ready(function () {
         //
         $scope.scanBarcode = function () {
-            alert("in side dddd ")
             $cordovaBarcodeScanner
                 .scan()
                 .then(function (barcodeData) {
                     // Success! Barcode data is here
                     alert(barcodeData.text);
+                    DouBanISBN.get({isbn:barcodeData.text},function(result){
+                        alert("dddd"+result.catalog);
+                        alert(result.author_intro);
+                    });
                     console.log("Barcode Format -> " + barcodeData.format);
                     console.log("Cancelled -> " + barcodeData.cancelled);
                 }, function (error) {

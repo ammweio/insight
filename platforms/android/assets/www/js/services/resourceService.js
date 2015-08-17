@@ -8,6 +8,9 @@ insight
     .factory("BookRecommendations", function($resource) {
         return $resource('dataset/bookRecommendations.json');
     })
+    .factory("DouBanISBN", function($resource) {
+        return $resource('https://api.douban.com/v2/book/isbn/:isbn',{isbn:'@isbn'});
+    })
     .factory("Book", function($resource) {
         return $resource('dataset/book.json');
     })
