@@ -30,7 +30,6 @@
         },
         "is_top_level": true,
         "variables": {}
-<<<<<<< HEAD
     },
     "cordova-plugin-whitelist": {
         "source": {
@@ -39,7 +38,13 @@
         },
         "is_top_level": true,
         "variables": {}
-=======
->>>>>>> c3cd6b7014acde0f617b4b1b427aeeb2ea4de9a1
+    },
+    "phonegap-plugin-barcodescanner": {
+        "source": {
+            "type": "registry",
+            "id": "phonegap-plugin-barcodescanner"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

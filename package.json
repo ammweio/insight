@@ -18,7 +18,8 @@
     "de.appplant.cordova.plugin.local-notification",
     "cordova-plugin-camera",
     "cordova-plugin-imagepicker",
-    "cordova-plugin-whitelist"
+    "cordova-plugin-whitelist",
+    "phonegap-plugin-barcodescanner"
   ],
   "cordovaPlatforms": [
     "android"
