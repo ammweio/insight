@@ -3,7 +3,7 @@
  */
 var insight = angular.module('insight');
 insight.controller('BooksForMeController', function($scope,$stateParams,BookRecommendations,Tags) {
-    console.log($stateParams.status+"===============")
+    $scope.currentStatus = $stateParams.status;
     BookRecommendations.query(function(result){
         $scope.recommendations = result;
     })
