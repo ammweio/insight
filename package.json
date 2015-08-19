@@ -15,11 +15,11 @@
     "shelljs": "^0.3.0"
   },
   "cordovaPlugins": [
-    "de.appplant.cordova.plugin.local-notification",
     "cordova-plugin-camera",
     "cordova-plugin-imagepicker",
     "cordova-plugin-whitelist",
-    "phonegap-plugin-barcodescanner"
+    "phonegap-plugin-barcodescanner",
+    "de.appplant.cordova.plugin.local-notification"
   ],
   "cordovaPlatforms": [
     "android"

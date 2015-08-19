@@ -488,18 +488,7 @@ public class LocalNotification extends CordovaPlugin {
             eventQueue.add(js);
             return;
         }
-<<<<<<< HEAD
 
-        webView.post(new Runnable(){
-            public void run(){
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-                    webView.evaluateJavascript(js, null);
-                } else {
-                    webView.loadUrl("javascript:" + js);
-                }
-            }
-        });
-=======
         webView.getView().post(new Runnable(){
                  public void run(){
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
@@ -509,7 +498,6 @@ public class LocalNotification extends CordovaPlugin {
                     }
                }
          });
->>>>>>> c3cd6b7014acde0f617b4b1b427aeeb2ea4de9a1
     }
 
     /**
