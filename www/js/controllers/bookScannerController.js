@@ -6,7 +6,7 @@
  */
 
 var insight = angular.module('insight');
-insight.controller('BookScannerController', function ($scope,$rootScope, $ionicPlatform,$cordovaBarcodeScanner,$cordovaLocalNotification,DouBanISBN) {
+insight.controller('BookScannerController', function ($scope,$rootScope, $ionicPlatform,$cordovaBarcodeScanner,$cordovaLocalNotification,GoogleBook) {
     $ionicPlatform.ready(function () {
         //
         $scope.scanBarcode = function () {
@@ -14,11 +14,15 @@ insight.controller('BookScannerController', function ($scope,$rootScope, $ionicP
                 .scan()
                 .then(function (barcodeData) {
                     // Success! Barcode data is here
-                    alert(barcodeData.text);
-                    DouBanISBN.get({isbn:barcodeData.text},function(result){
-                        alert("dddd"+result.catalog);
-                        alert(result.author_intro);
-                    });
+                    var theISBN = barcodeData.text;
+                    alert("this is barcode text---"+theISBN);
+                    if(theISBN && (theISBN.length == 13 || theISBN.length == 10)){
+                        GoogleBook.get({isbn:barcodeData.text},function(result){
+                            alert("here is data from google---"+JSON.stringify(result.data.items));
+                        });
+                    }else{
+                        alert("no an validate ISBN");
+                    }
                     console.log("Barcode Format -> " + barcodeData.format);
                     console.log("Cancelled -> " + barcodeData.cancelled);
                 }, function (error) {
