@@ -152,7 +152,7 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/bookScanner",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/iBook/bookScanner.html",
+                        templateUrl: "templates/scanner/bookScanner.html",
                         controller: 'BookScannerController'
                     }
                 }
