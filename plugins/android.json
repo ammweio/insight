@@ -17,15 +17,15 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
                             "count": 1
                         },
                         {
                             "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.localnotification.LocalNotification\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         },
                         {
@@ -604,10 +604,10 @@
         "cordova-plugin-imagepicker": {
             "PACKAGE_NAME": "com.ionicframework.insight666390"
         },
-        "de.appplant.cordova.plugin.local-notification": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ionicframework.insight666390"
         },
-        "cordova-plugin-whitelist": {
+        "de.appplant.cordova.plugin.local-notification": {
             "PACKAGE_NAME": "com.ionicframework.insight666390"
         },
         "phonegap-plugin-barcodescanner": {
