@@ -3,12 +3,49 @@
   <component name="ChangeListManager">
     <list default="true" id="79d0d6a4-f1f3-4db7-9020-d3e659566318" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-ldpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-ldpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-mdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-mdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-xhdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-xhdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-xxhdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-xxhdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-xxxhdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-xxxhdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-xxhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-xxhdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-land-xxxhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-xxxhdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxhdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxxhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxxhdpi/screen.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="E:\githubSpace\insight\platforms\android\assets\www\templates\iBook\bookRecommendations.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/iBook/bookRecommendations.html" />
-      <change type="MODIFICATION" beforePath="E:\githubSpace\insight\www\templates\iBook\bookRecommendations.html" afterPath="$PROJECT_DIR$/www/templates/iBook/bookRecommendations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/menu.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/menu.html" />
+      <change type="MODIFICATION" beforePath="E:\githubSpace\insight\platforms\android\assets\www\templates\iBook\books.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/iBook/books.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="insight.iws" />
@@ -33,87 +70,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bookScannerController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/controllers/bookScannerController.js">
+      <file leaf-file-name="screen.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="1224">
-              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.50524473" vertical-offset="0" max-vertical-offset="833">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2539" max-vertical-offset="3672">
-              <caret line="157" column="17" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
-              <folding />
-            </state>
+      <file leaf-file-name="screen.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bookDetailsDialog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/scanner/bookDetailsDialog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.0" vertical-offset="478" max-vertical-offset="1037">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="54" selection-end-column="25" />
-              <folding />
-            </state>
+      <file leaf-file-name="screen.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-xxhdpi/screen.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bookRecommendations.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/iBook/bookRecommendations.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="731">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#ion-slide#0;n#ion-slide-box#0;n#a#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#ion-slide#1;n#ion-slide-box#0;n#a#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#ion-slide#2;n#ion-slide-box#0;n#a#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="screen.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-port-xxhdpi/screen.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1275">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-              <folding />
-            </state>
+      <file leaf-file-name="launcher_icon.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable/launcher_icon.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="books.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/templates/iBook/books.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9391771" vertical-offset="19" max-vertical-offset="833">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-              <folding />
-            </state>
+      <file leaf-file-name="share_via_barcode.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable/share_via_barcode.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="annotation.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/dataset/annotation.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="391">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resourceService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/services/resourceService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1326">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="24" />
-              <folding />
-            </state>
+      <file leaf-file-name="shopper_icon.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable/shopper_icon.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -168,6 +194,7 @@
         <option value="$PROJECT_DIR$/www/templates/iBook/bookRecommendations.html" />
         <option value="$PROJECT_DIR$/www/templates/menu.html" />
         <option value="$PROJECT_DIR$/www/templates/iBook/books.html" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -224,118 +251,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scanner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,97 +378,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/templates/iBook/booksForMe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/dataset/book.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="901">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15178572" vertical-offset="0" max-vertical-offset="560">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/insightController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="1122">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/iBook/detailDialog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0970696" vertical-offset="100" max-vertical-offset="646">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/iBook/detailPopup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4257603" vertical-offset="0" max-vertical-offset="559">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/account/signIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45617172" vertical-offset="0" max-vertical-offset="559">
-          <caret line="15" column="93" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/account/signUp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39534885" vertical-offset="0" max-vertical-offset="559">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/node_modules/mime-types/node_modules/mime-db/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3557423" vertical-offset="19831" max-vertical-offset="108205">
-          <caret line="1174" column="30" selection-start-line="1174" selection-start-column="30" selection-end-line="1174" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bower/CONTRIBUTING.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22486289" vertical-offset="268" max-vertical-offset="3774">
-          <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/account/region.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1824687" vertical-offset="0" max-vertical-offset="559">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/account/settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.030411448" vertical-offset="204" max-vertical-offset="782">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/account/account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/img/ionic.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -685,14 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08916084" vertical-offset="0" max-vertical-offset="867">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/fetch.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.192308" vertical-offset="70" max-vertical-offset="935">
@@ -796,21 +612,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/iBook/bookRecommendations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="731">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#ion-slide#0;n#ion-slide-box#0;n#a#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#ion-slide#1;n#ion-slide-box#0;n#a#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#ion-slide#2;n#ion-slide-box#0;n#a#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1275">
+        <state vertical-scroll-proportion="0.608229" vertical-offset="0" max-vertical-offset="1275">
           <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding />
         </state>
@@ -828,6 +632,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9391771" vertical-offset="19" max-vertical-offset="833">
           <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-hdpi/image_bg.9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-hdpi/launcher_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-hdpi/loading_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/iBook/bookRecommendations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7161172" vertical-offset="0" max-vertical-offset="731">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ion-slide#0;n#ion-slide-box#0;n#a#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ion-slide#1;n#ion-slide-box#0;n#a#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ion-slide#2;n#ion-slide-box#0;n#a#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-xxhdpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-port-xxhdpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable/launcher_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable/share_via_barcode.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable/shopper_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50524473" vertical-offset="0" max-vertical-offset="833">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="47" />
           <folding />
         </state>
       </provider>
