@@ -193,6 +193,52 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                     }
                 }
             })
+
+            //for tabs
+            .state('insight.customerService', {
+                url: "/service",
+                abstract: true,
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/customerService/tabs.html"
+                    }
+                }
+            })
+            .state('insight.customerService.home', {
+                url: "/home",
+                views: {
+                    'home-tab': {
+                        templateUrl: "templates/customerService/home.html"
+                    }
+                }
+            })
+            .state('insight.customerService.facts', {
+                url: "/facts",
+                views: {
+                    'home-tab': {
+                        templateUrl: "templates/customerService/facts.html"
+                    }
+                }
+            })
+            .state('insight.customerService.storeService', {
+                url: "/storeService",
+                views: {
+                    'about-tab': {
+                        templateUrl: "templates/customerService/storeService.html",
+                        controller: 'CustomerServiceController'
+                    }
+                }
+            })
+            .state('insight.customerService.contact', {
+                url: "/contact",
+                views: {
+                    'contact-tab': {
+                        templateUrl: "templates/customerService/contact.html",
+                        controller: 'CustomerServiceController'
+                    }
+                }
+            })
+
             .state('insight.settings', {
                 url: "/account/settings",
                 views: {

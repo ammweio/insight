@@ -1,0 +1,60 @@
+<ion-view title="Contact">
+    <ion-content>
+        <!--<ion-slide-box on-slide-changed="slideHasChanged($index)" auto-play="true" does-continue="true">-->
+        <!--<ion-slide ng-repeat="item in [1,2,3,4,5,6] track by $index">-->
+        <!--<img ng-src="img/storeService/service{{item}}.gif" alt="Description" class="full-image">-->
+        <!--</ion-slide>-->
+        <!--</ion-slide-box>-->
+
+        <form ng-submit="signUp()">
+            <div class="list">
+                <div class="item item-divider">
+                    意见或反馈
+                </div>
+                <label class="item item-input">
+                    <textarea rows="4" ng-model="loginData.username" placeholder="请输入您的意见和反馈"></textarea>
+                </label>
+
+                <div class="item item-divider">
+                    联系方式
+                </div>
+                <label class="item item-input">
+                    <i class="icon ion-ios-telephone placeholder-icon"></i>
+                    <input type="tel" ng-model="loginData.password" placeholder="{{'telephone' | translate}}">
+                </label>
+                <label class="item item-input">
+                    <i class="icon ion-ios-email placeholder-icon"></i>
+                    <input type="email" ng-model="loginData.password" placeholder="{{'email' | translate}}">
+                </label>
+            </div>
+            <div class="button-bar">
+                <a class="button button-block button-stable">{{'clear' | translate}}</a>
+                <a class="button button-block button-balanced">{{'submit' | translate}}</a>
+            </div>
+        </form>
+
+        <div class="list">
+            <a class="item item-divider" href="#">
+                联系我们
+            </a>
+            <a class="item item-icon-left item-icon-right" href="#">
+                <i class="icon ion-ios-telephone"></i>
+                热线电话
+                <i class="icon ion-ios-telephone-outline"></i>
+            </a>
+            <a class="item item-icon-left item-icon-right" href="#">
+                <i class="icon ion-chatbubble-working"></i>
+                微信
+                <i class="icon ion-ios-telephone-outline"></i>
+            </a>
+            <a class="item item-icon-left" href="#">
+                <i class="icon ion-mic-a"></i>
+                新浪微博
+                <span class="item-note">
+                  Grammy
+                </span>
+            </a>
+        </div>
+
+    </ion-content>
+</ion-view>
