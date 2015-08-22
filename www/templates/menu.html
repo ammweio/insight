@@ -8,8 +8,8 @@
             </ion-nav-buttons>
 
             <ion-nav-buttons side="right">
-                    <a class="button button-icon icon ion-ios-person" href="#/insight/account"></a>
-                    <a class="button button-icon icon ion-ios-briefcase-outline"></a>
+                <a class="button button-icon icon ion-ios-person" href="#/insight/account"></a>
+                <a class="button button-icon icon ion-ios-briefcase-outline"></a>
             </ion-nav-buttons>
         </ion-nav-bar>
 
@@ -17,8 +17,8 @@
     </ion-side-menu-content>
 
     <ion-side-menu side="left">
-        <ion-header-bar class="bar-balanced">
-           <h1 class="title">iBooks</h1>
+        <ion-header-bar class="bar-positive">
+            <h1 class="title">iBooks</h1>
         </ion-header-bar>
         <ion-content>
             <ion-list>
@@ -36,35 +36,25 @@
                     <i class="icon ion-ios-pricetags-outline"></i>
                     {{'browseByCategory' | translate}}
                 </ion-item>
-                <ion-item nav-clear menu-close class="item-divider">
+
+                <ion-item nav-clear menu-close class="item-icon-left" href="#/insight/booksForMe/onReading">
+                    <i class="icon ion-ios-book-outline"></i>
                     {{'iRead' | translate}}
                 </ion-item>
-                <ion-item nav-clear menu-close class="item-icon-left" href="#/insight/booksForMe/reading">
-                    <i class="icon ion-ios-book-outline"></i>
-                    {{'reading' | translate}}
+
+                <ion-item nav-clear menu-close class="item-icon-left" href="#/insight/booksForMe/onReading">
+                    <i class="icon ion-ios-bookmarks-outline"></i>
+                    {{'iBorrow' | translate}}
                 </ion-item>
-                <ion-item nav-clear menu-close class="item-icon-left" href="#/insight/booksForMe/read">
-                    <i class="icon ion-ios-box-outline"></i>
-                    {{'read' | translate}}
-                </ion-item>
-                <ion-item nav-clear menu-close class="item-icon-left" href="#/insight/booksForMe/wishList">
-                    <i class="icon ion-ios-pricetag-outline"></i>
-                    {{'wishList' | translate}}
-                </ion-item>
+
                 <ion-item nav-clear menu-close class="item-icon-left" href="#/insight/bookScanner">
                     <i class="icon ion-qr-scanner"></i>
                     {{'scanner' | translate}}
                 </ion-item>
-                <ion-item nav-clear menu-close class="item-icon-left" href="#/insight/bookTags">
-                    <i class="icon ion-ios-pricetag-outline"></i>
-                    {{'tags' | translate}}
-                </ion-item>
+
                 <ion-item nav-clear menu-close class="item-icon-left" href="#/insight/ladies">
                     <i class="icon ion-ios-help-outline"></i>
                     {{'helpFeedback' | translate}}
-                </ion-item>
-                <ion-item nav-clear menu-close href="#/insight/service/home">
-                    Tab service
                 </ion-item>
             </ion-list>
         </ion-content>

@@ -130,24 +130,24 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                     }
                 }
             })
-            .state('insight.bookTags', {
-                url: "/bookTags",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/iBook/bookTags.html",
-                        controller: 'BooksForMeController'
-                    }
-                }
-            })
-            .state('insight.booksForMe', {
-                url: "/booksForMe/:status",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/iBook/booksForMe.html",
-                        controller: 'BooksForMeController'
-                    }
-                }
-            })
+            //.state('insight.bookTags', {
+            //    url: "/bookTags",
+            //    views: {
+            //        'menuContent': {
+            //            templateUrl: "templates/iBook/bookTags.html",
+            //            controller: 'BooksForMeController'
+            //        }
+            //    }
+            //})
+            //.state('insight.booksForMe', {
+            //    url: "/booksForMe/:status",
+            //    views: {
+            //        'menuContent': {
+            //            templateUrl: "templates/iBook/booksForMe.html",
+            //            controller: 'BooksForMeController'
+            //        }
+            //    }
+            //})
             .state('insight.bookScanner', {
                 url: "/bookScanner",
                 views: {
@@ -195,50 +195,60 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
             })
 
             //for tabs
-            .state('insight.customerService', {
-                url: "/service",
+            .state('insight.booksForMe', {
+                url: "/booksForMe",
                 abstract: true,
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/customerService/tabs.html"
+                        templateUrl: "templates/booksForMe/tabs.html"
                     }
                 }
             })
-            .state('insight.customerService.home', {
-                url: "/home",
+            .state('insight.booksForMe.read', {
+                url: "/read",
                 views: {
-                    'home-tab': {
-                        templateUrl: "templates/customerService/home.html"
+                    'readContent': {
+                        templateUrl: "templates/booksForMe/read.html",
+                        controller: 'BooksForMeController'
                     }
                 }
             })
-            .state('insight.customerService.facts', {
-                url: "/facts",
+            .state('insight.booksForMe.onReading', {
+                url: "/onReading",
                 views: {
-                    'home-tab': {
-                        templateUrl: "templates/customerService/facts.html"
+                    'readingContent': {
+                        templateUrl: "templates/booksForMe/reading.html",
+                        controller: 'BooksForMeController'
                     }
                 }
             })
-            .state('insight.customerService.storeService', {
-                url: "/storeService",
+            .state('insight.booksForMe.wishList', {
+                url: "/wishList",
                 views: {
-                    'about-tab': {
-                        templateUrl: "templates/customerService/storeService.html",
-                        controller: 'CustomerServiceController'
+                    'wishListContent': {
+                        templateUrl: "templates/booksForMe/wishList.html",
+                        controller: 'BooksForMeController'
                     }
                 }
             })
-            .state('insight.customerService.contact', {
-                url: "/contact",
+            .state('insight.booksForMe.favorite', {
+                url: "/favorite",
                 views: {
-                    'contact-tab': {
-                        templateUrl: "templates/customerService/contact.html",
-                        controller: 'CustomerServiceController'
+                    'favoriteContent': {
+                        templateUrl: "templates/booksForMe/favorite.html",
+                        controller: 'BooksForMeController'
                     }
                 }
             })
-
+            .state('insight.booksForMe.label', {
+                url: "/label",
+                views: {
+                    'labelContent': {
+                        templateUrl: "templates/booksForMe/label.html",
+                        controller: 'BooksForMeController'
+                    }
+                }
+            })
             .state('insight.settings', {
                 url: "/account/settings",
                 views: {

@@ -19,9 +19,11 @@
   "archive":"已归档",
   "trash":"回收站",
   "iRead":"我读",
+  "iBorrow":"我借",
   "reading":"在读",
   "read":"已读",
-  "tags":"标签",
+  "favorite":"爱读",
+  "label":"标签",
   "helpFeedback":"帮助&回馈",
   "browseByCategory":"分类浏览",
   "wishList":"想读"

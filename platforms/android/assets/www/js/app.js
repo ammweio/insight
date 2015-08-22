@@ -139,15 +139,15 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                     }
                 }
             })
-            .state('insight.booksForMe', {
-                url: "/booksForMe/:status",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/iBook/booksForMe.html",
-                        controller: 'BooksForMeController'
-                    }
-                }
-            })
+            //.state('insight.booksForMe', {
+            //    url: "/booksForMe/:status",
+            //    views: {
+            //        'menuContent': {
+            //            templateUrl: "templates/iBook/booksForMe.html",
+            //            controller: 'BooksForMeController'
+            //        }
+            //    }
+            //})
             .state('insight.bookScanner', {
                 url: "/bookScanner",
                 views: {
@@ -193,6 +193,50 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                     }
                 }
             })
+
+            //for tabs
+            .state('insight.booksForMe', {
+                url: "/booksForMe",
+                abstract: true,
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/booksForMe/tabs.html"
+                    }
+                }
+            })
+            .state('insight.booksForMe.read', {
+                url: "/read",
+                views: {
+                    'readContent': {
+                        templateUrl: "templates/booksForMe/read.html"
+                    }
+                }
+            })
+            .state('insight.booksForMe.reading', {
+                url: "/reading",
+                views: {
+                    'readingContent': {
+                        templateUrl: "templates/booksForMe/reading.html"
+                    }
+                }
+            })
+            .state('insight.booksForMe.wishList', {
+                url: "/wishList",
+                views: {
+                    'wishListContent': {
+                        templateUrl: "templates/booksForMe/wishList.html"
+                    }
+                }
+            })
+            .state('insight.booksForMe.favorite', {
+                url: "/favorite",
+                views: {
+                    'favoriteContent': {
+                        templateUrl: "templates/booksForMe/favorite.html"
+                    }
+                }
+            })
+
             .state('insight.settings', {
                 url: "/account/settings",
                 views: {

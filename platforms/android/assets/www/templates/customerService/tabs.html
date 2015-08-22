@@ -1,0 +1,22 @@
+<ion-tabs class="tabs-striped tabs-top tabs-background-positive tabs-color-light">
+
+    <ion-tab title="{{'reading' | translate}}" icon="ion-ios-book-outline" href="#/insight/booksForMe/reading">
+        <ion-nav-view name="readingContent"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="{{'read' | translate}}" icon="ion-ios-box-outline" href="#/insight/booksForMe/read">
+        <ion-nav-view name="readContent"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="{{'wishList' | translate}}" icon="ion-ios-pricetag-outline" href="#/insight/booksForMe/wishList">
+        <ion-nav-view name="wishListContent"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="Store Service" icon="ion-ios-heart-outline" href="#/insight/booksForMe/storeService">
+        <ion-nav-view name="about-tab"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="Contact" icon="ion-ios-world" ui-sref="insight.booksForMe.contact">
+        <ion-nav-view name="contact-tab"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>

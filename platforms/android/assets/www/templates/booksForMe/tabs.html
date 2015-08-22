@@ -1,0 +1,26 @@
+<ion-tabs class="tabs-striped tabs-top tabs-background-positive tabs-color-light">
+
+    <ion-tab title="{{'reading' | translate}}" icon="ion-ios-book-outline" href="#/insight/booksForMe/reading">
+        <ion-nav-view name="readingContent">
+            Reading
+        </ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="{{'read' | translate}}" icon="ion-ios-box-outline" href="#/insight/booksForMe/read">
+        <ion-nav-view name="readContent">
+            Read
+        </ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="{{'wishList' | translate}}" icon="ion-ios-pricetag-outline" href="#/insight/booksForMe/wishList">
+        <ion-nav-view name="wishListContent">
+            WishList
+        </ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="Contact" icon="ion-ios-heart-outline" ui-sref="insight.booksForMe.favorite">
+        <ion-nav-view name="favoriteContent">
+            favorite
+        </ion-nav-view>
+    </ion-tab>
+</ion-tabs>

@@ -19,9 +19,11 @@
   "archive":"Archive",
   "trash":"Trash",
   "iRead":"iRead",
+  "iBorrow":"iBorrow",
   "reading":"Reading",
   "read":"Read",
-  "tags":"Tags",
+  "favorite":"Favorite",
+  "label":"Tags",
   "helpFeedback":"Help&Feedback",
   "browseByCategory":"Browse By Category",
   "wishList":"Wish List"
