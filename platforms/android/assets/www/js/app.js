@@ -130,15 +130,15 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                     }
                 }
             })
-            .state('insight.bookTags', {
-                url: "/bookTags",
-                views: {
-                    'menuContent': {
-                        templateUrl: "templates/iBook/bookTags.html",
-                        controller: 'BooksForMeController'
-                    }
-                }
-            })
+            //.state('insight.bookTags', {
+            //    url: "/bookTags",
+            //    views: {
+            //        'menuContent': {
+            //            templateUrl: "templates/iBook/bookTags.html",
+            //            controller: 'BooksForMeController'
+            //        }
+            //    }
+            //})
             //.state('insight.booksForMe', {
             //    url: "/booksForMe/:status",
             //    views: {
@@ -208,15 +208,17 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/read",
                 views: {
                     'readContent': {
-                        templateUrl: "templates/booksForMe/read.html"
+                        templateUrl: "templates/booksForMe/read.html",
+                        controller: 'BooksForMeController'
                     }
                 }
             })
-            .state('insight.booksForMe.reading', {
-                url: "/reading",
+            .state('insight.booksForMe.onReading', {
+                url: "/onReading",
                 views: {
                     'readingContent': {
-                        templateUrl: "templates/booksForMe/reading.html"
+                        templateUrl: "templates/booksForMe/reading.html",
+                        controller: 'BooksForMeController'
                     }
                 }
             })
@@ -224,7 +226,8 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/wishList",
                 views: {
                     'wishListContent': {
-                        templateUrl: "templates/booksForMe/wishList.html"
+                        templateUrl: "templates/booksForMe/wishList.html",
+                        controller: 'BooksForMeController'
                     }
                 }
             })
@@ -232,11 +235,20 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/favorite",
                 views: {
                     'favoriteContent': {
-                        templateUrl: "templates/booksForMe/favorite.html"
+                        templateUrl: "templates/booksForMe/favorite.html",
+                        controller: 'BooksForMeController'
                     }
                 }
             })
-
+            .state('insight.booksForMe.label', {
+                url: "/label",
+                views: {
+                    'labelContent': {
+                        templateUrl: "templates/booksForMe/label.html",
+                        controller: 'BooksForMeController'
+                    }
+                }
+            })
             .state('insight.settings', {
                 url: "/account/settings",
                 views: {

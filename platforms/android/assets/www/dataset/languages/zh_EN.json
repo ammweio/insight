@@ -19,10 +19,11 @@
   "archive":"Archive",
   "trash":"Trash",
   "iRead":"iRead",
+  "iBorrow":"iBorrow",
   "reading":"Reading",
   "read":"Read",
   "favorite":"Favorite",
-  "tags":"Tags",
+  "label":"Tags",
   "helpFeedback":"Help&Feedback",
   "browseByCategory":"Browse By Category",
   "wishList":"Wish List"
