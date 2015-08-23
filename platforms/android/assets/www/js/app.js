@@ -200,7 +200,8 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 abstract: true,
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/booksForMe/tabs.html"
+                        templateUrl: "templates/booksForMe/tabs.html",
+                        controller: 'BooksForMeController'
                     }
                 }
             })

@@ -24,6 +24,8 @@
   "read":"Read",
   "favorite":"Favorite",
   "label":"Tags",
+  "borrowedFrom":"Borrowed From",
+  "borrowedTo":"Borrowed To",
   "helpFeedback":"Help&Feedback",
   "browseByCategory":"Browse By Category",
   "wishList":"Wish List"

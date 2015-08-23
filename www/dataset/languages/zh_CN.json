@@ -24,6 +24,8 @@
   "read":"已读",
   "favorite":"爱读",
   "label":"标签",
+  "borrowedFrom":"借入",
+  "borrowedTo":"借给",
   "helpFeedback":"帮助&回馈",
   "browseByCategory":"分类浏览",
   "wishList":"想读"
